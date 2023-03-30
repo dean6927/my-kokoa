@@ -1,0 +1,26 @@
+.settings__setting {
+  padding: 20px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.settings__setting-column:nth-child(2n + 1) {
+  color: rgba(0, 0, 0, 0.6);
+  transition: color 0.5s ease-in-out;
+}
+
+.settings__setting-column:nth-child(2n + 1):hover {
+  cursor: pointer;
+  color: black;
+}
+.settings__setting i {
+  margin-right: 20px;
+  font-size: 22px;
+}
+
+.settings__setting-column:last-child {
+  opacity: 0.5;
+}
