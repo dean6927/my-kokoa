@@ -26,6 +26,14 @@
 
 .more-suggestions__icon-image {
   background-color: var(--yellow);
+}
+
+.more-suggestions__icon-image_2 {
+  background-color: black;
+}
+
+.more-suggestions__icon-image,
+.more-suggestions__icon-image_2 {
   width: 60px;
   height: 60px;
   border-radius: 10px;
@@ -36,6 +44,14 @@
 }
 
 .more-suggestions__icon-image i {
-  font-size: 33px;
   color: white;
+}
+
+.more-suggestions__icon-image_2 i {
+  color: var(--yellow);
+}
+
+.more-suggestions__icon-image i,
+.more-suggestions__icon-image_2 i {
+  font-size: 33px;
 }

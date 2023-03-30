@@ -1,13 +1,13 @@
 #chat-screen {
   background-color: #abc1d1;
-  height: 500vh;
+  height: 100vh;
 }
 
 #chat-screen .status-bar,
 #chat-screen .alt-header {
   top: 0;
   position: fixed;
-  width: 100%;
+  width: 100vw;
   box-sizing: border-box;
   background-color: #abc1d1;
 }
@@ -157,7 +157,7 @@
 .reply {
   position: fixed;
   bottom: 0;
-  width: 100%;
+  width: 100vw;
   background-color: white;
   display: flex;
   justify-content: space-between;
@@ -232,7 +232,7 @@
 }
 
 .reply input:focus {
-  width: 87vw;
+  width: 90vw;
   transform: translateX(-40px) translateY(-80px);
 }
 

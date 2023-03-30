@@ -43,6 +43,9 @@
   animation-delay: 2s;
 }
 
+#splash-screen i {
+  bottom: 80px;
+}
 @keyframes hideSplashScreen {
   from {
     opacity: 1;
